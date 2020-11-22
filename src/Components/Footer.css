@@ -1,0 +1,11 @@
+.main-footer {
+  color: white;
+  background-color: #dc3545;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.col {
+  flex: right;
+}
