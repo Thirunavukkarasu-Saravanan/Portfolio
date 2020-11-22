@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Titlebar from "./Components/Titlebar";
 import Footer from "./Components/Footer";
+import Counter from "./Components/Counter";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <div>
           <Titlebar />
         </div>
+        <Counter />
         <div>
           <Footer />
         </div>
