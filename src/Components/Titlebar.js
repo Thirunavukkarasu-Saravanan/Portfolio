@@ -2,7 +2,6 @@ import { render } from "@testing-library/react";
 import React from "react";
 import entries from "../Data/data-entry";
 import banner from "../Images/banner.png";
-import MultipleCounter from "./Components/MultipleCounter";
 
 class Header extends React.Component {
   render() {
