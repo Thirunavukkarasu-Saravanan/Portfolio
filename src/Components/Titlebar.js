@@ -1,6 +1,7 @@
 import { render } from "@testing-library/react";
 import React from "react";
 import entries from "../Data/data-entry";
+import banner from "../Images/banner.png";
 
 class Header extends React.Component {
   render() {
@@ -12,29 +13,25 @@ class Header extends React.Component {
     let nav3 = entries.Tags[0].NavBar3;
     let nav4 = entries.Tags[0].NavBar4;
     return (
-      <div>
-        <div className="HeaderTitle">
-          <h2 src="">{pageTitle}</h2>
-        </div>
-        <div className="NavBar">
-          <ul className="NavTabs">
-            <li className="NavLinks">
-              <a href="#home">{nav1}</a>
-            </li>
-            <li className="NavLinks">
-              <a href="#news">{nav2}</a>
-            </li>
-            <li className="NavLinks">
-              <a href="#news">{nav3}</a>
-            </li>
-            <li className="NavLinkspcl">
-              <a className="active" href="#about">
-                {nav4}
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <nav class="nav justify-content-end">
+        <a class="nav-link active" href="#">
+          Active
+        </a>
+        <a class="nav-link" href="#">
+          Link
+        </a>
+        <a class="nav-link" href="#">
+          Link
+        </a>
+        <a
+          class="nav-link disabled"
+          href="#"
+          tabindex="-1"
+          aria-disabled="true"
+        >
+          Disabled
+        </a>
+      </nav>
     );
   }
 }

@@ -7,6 +7,11 @@
       "NavBar2"  : "Project",
       "NavBar3"  : "Contact",
       "NavBar4"  : "Creative Space"
+    },
+
+    {
+      "Social1" : "https://github.com/Thirunavukkarasu-Saravanan?tab=repositories",
+      "Social2" : "https://www.linkedin.com/in/srvn6845/"
     }
   ]
 }

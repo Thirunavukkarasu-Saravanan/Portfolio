@@ -5,6 +5,7 @@ import Titlebar from "./Components/Titlebar";
 import Footer from "./Components/Footer";
 import Counter from "./Components/Counter";
 import MultipleCounter from "./Components/MultipleCounter";
+import Profile from "./Components/Profile";
 
 function App() {
   return (
@@ -15,9 +16,8 @@ function App() {
         </div>
         {/* <Counter /> */}
         <MultipleCounter />
-        <div>
-          <Footer />
-        </div>
+        <Profile />
+        <div>{/* <Footer /> */}</div>
       </header>
     </div>
   );
