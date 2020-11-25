@@ -15,7 +15,7 @@ function App() {
           <Titlebar />
         </div>
         {/* <Counter /> */}
-        <MultipleCounter />
+        {/* <MultipleCounter /> */}
         <Profile />
         <div>{/* <Footer /> */}</div>
       </header>

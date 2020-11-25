@@ -34,9 +34,8 @@ function ProfileCard() {
         <a class="navbar-brand" href={gitUrl}>
           <img src={git} width="35" height="35" alt=""></img>
         </a>
-
         <a class="navbar-brand" href={inUrl}>
-          <img src={lnbc} width="30" height="30" alt=""></img>
+          <img src={lnsb} width="30" height="30" alt=""></img>
         </a>
         <a class="navbar-brand" href="#">
           <img src={cont} width="30" height="30" alt=""></img>
