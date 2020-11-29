@@ -21,6 +21,8 @@ function App() {
         </Route>
         <Route path="/exp">
           <Experience />
+          <Experience />
+          <Experience />
         </Route>
         <Route path="/proj">
           <Project />

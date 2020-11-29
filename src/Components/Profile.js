@@ -15,10 +15,9 @@ import eml from "../Images/eml.png";
 function ProfileCard() {
   let gitUrl = entries.Tags[1].Social1;
   let inUrl = entries.Tags[1].Social2;
+  let resumeUrl = entries.Tags[1].Social3;
   return (
     <div class="container-fluid">
-      <div class="container-sm"></div>
-
       <img
         src={profile}
         class="img-fluid rounded-pill"
@@ -42,6 +41,11 @@ function ProfileCard() {
           <img src={gm} width="30" height="30" alt=""></img>
         </a>
       </div>
+      <a class="navbar-brand" href={resumeUrl}>
+        <button type="button" class="btn btn-outline-dark">
+          Resume
+        </button>
+      </a>
     </div>
   );
 }
