@@ -27,9 +27,7 @@ function ProfileCard() {
         alt=""
         loading="lazy"
       ></img>
-      <div class="container-xl">
-        <h2>Saravanan Thirunavukkarasu</h2>
-      </div>
+      <div class="container-xl">Saravanan Thirunavukkarasu</div>
       <div class="container-xl">
         <a class="navbar-brand" href={gitUrl}>
           <img src={git} width="35" height="35" alt=""></img>
