@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Thirunavukkarasu-Saravanan/Portfolio/static/css/main.90f71cdd.chunk.css",
+    "main.js": "/Thirunavukkarasu-Saravanan/Portfolio/static/js/main.2503f13e.chunk.js",
+    "main.js.map": "/Thirunavukkarasu-Saravanan/Portfolio/static/js/main.2503f13e.chunk.js.map",
+    "runtime-main.js": "/Thirunavukkarasu-Saravanan/Portfolio/static/js/runtime-main.795c95b0.js",
+    "runtime-main.js.map": "/Thirunavukkarasu-Saravanan/Portfolio/static/js/runtime-main.795c95b0.js.map",
+    "static/css/2.2a86faee.chunk.css": "/Thirunavukkarasu-Saravanan/Portfolio/static/css/2.2a86faee.chunk.css",
+    "static/js/2.f27fe858.chunk.js": "/Thirunavukkarasu-Saravanan/Portfolio/static/js/2.f27fe858.chunk.js",
+    "static/js/2.f27fe858.chunk.js.map": "/Thirunavukkarasu-Saravanan/Portfolio/static/js/2.f27fe858.chunk.js.map",
+    "index.html": "/Thirunavukkarasu-Saravanan/Portfolio/index.html",
+    "precache-manifest.03c48548921a96a07ae014ab103b29cd.js": "/Thirunavukkarasu-Saravanan/Portfolio/precache-manifest.03c48548921a96a07ae014ab103b29cd.js",
+    "service-worker.js": "/Thirunavukkarasu-Saravanan/Portfolio/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/Thirunavukkarasu-Saravanan/Portfolio/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.90f71cdd.chunk.css.map": "/Thirunavukkarasu-Saravanan/Portfolio/static/css/main.90f71cdd.chunk.css.map",
+    "static/js/2.f27fe858.chunk.js.LICENSE.txt": "/Thirunavukkarasu-Saravanan/Portfolio/static/js/2.f27fe858.chunk.js.LICENSE.txt",
+    "static/media/banner.png": "/Thirunavukkarasu-Saravanan/Portfolio/static/media/banner.1d07329c.png",
+    "static/media/cntct.png": "/Thirunavukkarasu-Saravanan/Portfolio/static/media/cntct.b69de153.png",
+    "static/media/cont.png": "/Thirunavukkarasu-Saravanan/Portfolio/static/media/cont.f2c58482.png",
+    "static/media/lnbc.png": "/Thirunavukkarasu-Saravanan/Portfolio/static/media/lnbc.34ca7885.png",
+    "static/media/lnc.png": "/Thirunavukkarasu-Saravanan/Portfolio/static/media/lnc.0e1846ee.png",
+    "static/media/logo.svg": "/Thirunavukkarasu-Saravanan/Portfolio/static/media/logo.5d5d9eef.svg",
+    "static/media/profile.JPG": "/Thirunavukkarasu-Saravanan/Portfolio/static/media/profile.7af3ea39.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.795c95b0.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.f27fe858.chunk.js",
+    "static/css/main.90f71cdd.chunk.css",
+    "static/js/main.2503f13e.chunk.js"
+  ]
+}
