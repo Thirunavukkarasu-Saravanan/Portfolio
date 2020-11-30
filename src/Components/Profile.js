@@ -11,42 +11,59 @@ import lnc from "../Images/lnc.png";
 import lnbc from "../Images/lnbc.png";
 import git from "../Images/git.png";
 import eml from "../Images/eml.png";
+import { Container, Row, Col, Image, Button, Nav } from "react-bootstrap";
 
 function ProfileCard() {
   let gitUrl = entries.Tags[1].Social1;
   let inUrl = entries.Tags[1].Social2;
   let resumeUrl = entries.Tags[1].Social3;
+  let profileName = entries.Tags[0].Title;
+  let profileMail = entries.Tags[1].Social4;
   return (
-    <div class="container-fluid">
-      <img
-        src={profile}
-        class="img-fluid rounded-pill"
-        alt="Responsive image"
-        width="300"
-        alt=""
-        loading="lazy"
-      ></img>
-      <div class="container-xl">Saravanan Thirunavukkarasu</div>
-      <div class="container-xl">
-        <a class="navbar-brand" href={gitUrl}>
-          <img src={git} width="35" height="35" alt=""></img>
-        </a>
-        <a class="navbar-brand" href={inUrl}>
-          <img src={lnsb} width="30" height="30" alt=""></img>
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src={cont} width="30" height="30" alt=""></img>
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src={gm} width="30" height="30" alt=""></img>
-        </a>
-      </div>
-      <a class="navbar-brand" href={resumeUrl}>
-        <button type="button" class="btn btn-outline-dark">
-          Resume
-        </button>
-      </a>
-    </div>
+    <Container>
+      <Row>
+        <Col sm={4}></Col>
+        <Col sm={4}>
+          <Image
+            fluid
+            src={profile}
+            alt="Profile Logo"
+            style={{
+              borderRadius: "100px",
+              marginBottom: "30px",
+              marginTop: "30px",
+            }}
+          />
+          <Nav defaultActiveKey="/home" className="justify-content-center">
+            <Nav.Link href={gitUrl}>
+              <Image src={git} width="45px" fluid />
+            </Nav.Link>
+            <Nav.Link href={inUrl}>
+              <Image src={lnsb} width="28px" fluid />
+            </Nav.Link>
+            <Nav.Link href={profileMail}>
+              <Image src={gm} width="36px" fluid />
+            </Nav.Link>
+          </Nav>
+          <Container>
+            <Row>
+              <Col></Col>
+              <Col>
+                <Button
+                  href={resumeUrl}
+                  variant="outline-dark"
+                  style={{ marginTop: "30px" }}
+                >
+                  Resume
+                </Button>
+              </Col>
+              <Col></Col>
+            </Row>
+          </Container>
+        </Col>
+        <Col sm={4}></Col>
+      </Row>
+    </Container>
   );
 }
 

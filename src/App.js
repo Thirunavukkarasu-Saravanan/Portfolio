@@ -14,14 +14,13 @@ function App() {
   return (
     <Router>
       <div className="App"></div>
+
       <header className="App-header">
         <Titlebar />
         <Route exact path="/">
           <Profile />
         </Route>
         <Route path="/exp">
-          <Experience />
-          <Experience />
           <Experience />
         </Route>
         <Route path="/proj">

@@ -13,7 +13,40 @@
     {
       "Social1" : "https://github.com/Thirunavukkarasu-Saravanan?tab=repositories",
       "Social2" : "https://www.linkedin.com/in/srvn6845/",
-      "Social3" : "https://drive.google.com/file/d/1BAYx4mRsYo0W6tx_UwhGtgKPG7e_-XAS/view?usp=sharing"
+      "Social3" : "https://drive.google.com/file/d/1BAYx4mRsYo0W6tx_UwhGtgKPG7e_-XAS/view?usp=sharing",
+      "Social4" : "mailto: saravanan6845@gmail.com"
+    },
+    {
+      "Experience" : 
+      [
+        {
+          "Role" : "Graduate Teaching Assistant",
+          "Duration" : "Current Job",
+          "Description": "Review and grade assignments (code) for Advanced software engineering and testing class, course covers Agile software development life cycle with focus on testing and deliverables per iteration.",
+          "ReferenceName" : "Dr.John Robb",
+          "ReferenceEmail" : "john.robb@uta.edu",
+          "ReferencePhone" : "+1 817 272 3604"
+
+        },
+    
+        {
+          "Role" : "ss",
+          "Duration" : "Current Job",
+          "Description": "s",
+          "ReferenceName" : "",
+          "ReferenceEmail" : "",
+          "ReferencePhone" : ""
+        },
+
+        {
+          "Role" : "ss",
+          "Duration" : "Current Job",
+          "Description": "s",
+          "ReferenceName" : "",
+          "ReferenceEmail" : "",
+          "ReferencePhone" : ""
+        } 
+      ]
     }
   ]
 }
