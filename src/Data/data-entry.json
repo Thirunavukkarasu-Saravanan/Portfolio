@@ -21,11 +21,12 @@
       [
         {
           "Role" : "Graduate Teaching Assistant",
-          "Duration" : "Current Job",
+          "Duration" : "Current Job (August 2020 - Present)",
           "Description": "Review and grade assignments (code) for Advanced software engineering and testing class, course covers Agile software development life cycle with focus on testing and deliverables per iteration.",
           "ReferenceName" : "Dr.John Robb",
           "ReferenceEmail" : "john.robb@uta.edu",
-          "ReferencePhone" : "+1 817 272 3604"
+          "ReferencePhone" : "+1 817 272 3604",
+          "Company": "University of Texas at Arlington"
 
         },
     
