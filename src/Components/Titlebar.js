@@ -2,7 +2,7 @@ import { render } from "@testing-library/react";
 import React from "react";
 import entries from "../Data/data-entry";
 import banner from "../Images/banner.png";
-import { Link } from "react-router-dom";
+import { Link, Navbar } from "react-router-dom";
 
 class Header extends React.Component {
   render() {

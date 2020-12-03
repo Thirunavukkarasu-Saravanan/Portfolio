@@ -5,13 +5,20 @@ import { Accordion, Card, Container, Row, Col, Button } from "react-bootstrap";
 import entries from "../Data/data-entry";
 
 function Experience() {
-  let role1 = entries.Tags[2].Experience[0].Role;
-  let skills1 = entries.Tags[2].Experience[0].Description;
-  let reference1 = entries.Tags[2].Experience[0].ReferenceName;
-  let referencEmail1 = entries.Tags[2].Experience[0].ReferenceEmail;
-  let referencContact1 = entries.Tags[2].Experience[0].ReferencePhone;
-  let duration1 = entries.Tags[2].Experience[0].Duration;
-  let companyName1 = entries.Tags[2].Experience[0].Company;
+  let role1 = entries.Tags[3].Experience[0].Role;
+  let skills1 = entries.Tags[3].Experience[0].Description;
+  let reference1 = entries.Tags[3].Experience[0].ReferenceName;
+  let referencEmail1 = entries.Tags[3].Experience[0].ReferenceEmail;
+  let referencContact1 = entries.Tags[3].Experience[0].ReferencePhone;
+  let duration1 = entries.Tags[3].Experience[0].Duration;
+  let companyName1 = entries.Tags[3].Experience[0].Company;
+  let role2 = entries.Tags[3].Experience[0].Role2;
+  let skills2 = entries.Tags[3].Experience[1].Description2;
+  let reference2 = entries.Tags[3].Experience[1].ReferenceName2;
+  let referencEmail2 = entries.Tags[3].Experience[1].ReferenceEmail2;
+  let referencContact2 = entries.Tags[3].Experience[1].ReferencePhone2;
+  let duration2 = entries.Tags[3].Experience[1].duration2;
+  let companyName2 = entries.Tags[3].Experience[1].Company2;
   return (
     <Container fluid>
       <Row>
@@ -28,7 +35,7 @@ function Experience() {
                       Duties
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
-                      <Card.Body>{skills1}</Card.Body>
+                      <Card.Body>{skills2}</Card.Body>
                     </Accordion.Collapse>
                   </Card>
                   <Card>
@@ -52,6 +59,7 @@ function Experience() {
           </Card>
         </Col>
       </Row>
+      <br></br>
     </Container>
   );
 }

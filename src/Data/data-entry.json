@@ -16,27 +16,36 @@
       "Social3" : "https://drive.google.com/file/d/1BAYx4mRsYo0W6tx_UwhGtgKPG7e_-XAS/view?usp=sharing",
       "Social4" : "mailto: saravanan6845@gmail.com"
     },
+
+    {
+      "ProfileHeader" : "",
+      "ProfileDescription1" : "MS - Computer Science, University of Texas at Arlington, 2020. Area of specialization - Software Engineering and Databases with 2 years of industry experience as a back end developer. I am currently looking for full time opportunities within the United States and am open to relocation.",
+      "ProfileDescription2" : "I come in with experience and the focus to be a problem-solver and decision maker with little guidance. I believe I have the right attitude to apply myself as a software developer who can listen, learn, and create. I highly respect those values and have always made them a part of myself. I have been working on myself, constantly learning and growing to be a better version of who I was yesterday and am looking for an opportunity where I can incorporate the knowledge and experience I have attained to create scalable and awesome products, solve problems efficiently and in a simple manner.",
+      "ProfileName" : "Saravanan Thirunavukkarasu",
+      "ProfileInfo" : ""
+
+    },
     {
       "Experience" : 
       [
         {
           "Role" : "Graduate Teaching Assistant",
-          "Duration" : "Current Job (August 2020 - Present)",
+          "Duration" : "Current Job [August 2020 - Present]",
           "Description": "Review and grade assignments (code) for Advanced software engineering and testing class, course covers Agile software development life cycle with focus on testing and deliverables per iteration.",
           "ReferenceName" : "Dr.John Robb",
           "ReferenceEmail" : "john.robb@uta.edu",
           "ReferencePhone" : "+1 817 272 3604",
-          "Company": "University of Texas at Arlington"
+          "Company": "University of Texas at Arlington -"
 
         },
     
         {
-          "Role" : "ss",
-          "Duration" : "Current Job",
-          "Description": "s",
-          "ReferenceName" : "",
-          "ReferenceEmail" : "",
-          "ReferencePhone" : ""
+          "Role2" : "Product Development Intern",
+          "Duration2" : "[May 2020 – August 2020]",
+          "Description2": " • Worked closely with product, analyzed requirement specification, and developed firmware logic, integrated back-end on IoT cloud platform - ThingsBoard and Ubidots, designed mockup for UI/UX for mobile and web app, using Figma, and practiced daily stand-up meetings. • Developed and automated proposal generation web application using HTML, CSS, JavaScript for frontend, and jQuery for RESTful API (OAuth 2.0) call to fetch pricing and description details, from ZOHO Inventory and CRM, based on product SKU (6000+ SKUs). • Implemented algorithms using PHP to determine products that best fits a selected Sauna/Steam kit. Backend fetched dynamically using RESTful API and generated proposal can be saved as PDF. • Migrated and hosted WordPress application from Linux hosting to cPanel Hosting.",
+          "ReferenceName2" : "",
+          "ReferenceEmail2" : "",
+          "ReferencePhone2" : "Scandia Manufacturing"
         },
 
         {
