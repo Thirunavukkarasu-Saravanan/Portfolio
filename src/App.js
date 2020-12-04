@@ -9,6 +9,7 @@ import MultipleCounter from "./Components/MultipleCounter";
 import Profile from "./Components/Profile";
 import Experience from "./Components/Experience";
 import Project from "./Components/Project";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Titlebar />
         <Route exact path="/">
           <Profile />
+          <Skills />
         </Route>
         <Route path="/exp">
           <Experience />

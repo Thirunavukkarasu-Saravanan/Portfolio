@@ -11,6 +11,7 @@ import lnc from "../Images/lnc.png";
 import lnbc from "../Images/lnbc.png";
 import git from "../Images/git.png";
 import eml from "../Images/eml.png";
+
 import {
   Container,
   Row,
@@ -21,8 +22,9 @@ import {
   Alert,
   Badge,
   ProgressBar,
-  variant,
-  idx,
+  ListGroup,
+  Tab,
+  Sonnet,
 } from "react-bootstrap";
 
 function ProfileCard() {
@@ -35,6 +37,8 @@ function ProfileCard() {
   let ProfileHeader = entries.Tags[2].ProfileHeader;
   let ProfileInfo = entries.Tags[2].ProfileInfo;
   let profileMail = entries.Tags[1].Social4;
+  const now = 60;
+  const noww = 40;
 
   return (
     <Container>
@@ -85,24 +89,13 @@ function ProfileCard() {
         </Col>
         <Col sm={4}></Col>
         <Alert>
-          <Alert.Heading>About me</Alert.Heading>
+          <h2>About me</h2>
+
           <p>{ProfileDescription1}</p>
           <hr />
           <p className="mb-0">{ProfileDescription2}</p>
         </Alert>
       </Row>
-      [ 'primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light',
-      'dark', ].map((variant, idx) => (
-      <Alert key={idx} variant={variant}>
-        This is a {variant} alert with{" "}
-        <Alert.Link href="#">an example link</Alert.Link>. Give it a click if
-        you like.
-      </Alert>
-      ));
-      <ProgressBar variant="success" now={40} />
-      <ProgressBar variant="info" now={20} />
-      <ProgressBar variant="warning" now={60} />
-      <ProgressBar variant="danger" now={80} />
     </Container>
   );
 }
