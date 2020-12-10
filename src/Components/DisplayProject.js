@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row, Carousel } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import ProjectCardRight from "./ProjectCardRight";
 
