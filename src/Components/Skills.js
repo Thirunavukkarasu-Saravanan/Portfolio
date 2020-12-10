@@ -87,7 +87,7 @@ function Skills() {
               </Card>
             </Accordion>
           </Col>
-          <Col sm={4}>sm=4</Col>
+          <Col sm={4}></Col>
         </Row>
       </Container>
     </div>
