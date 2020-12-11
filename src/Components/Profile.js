@@ -56,10 +56,11 @@ function ProfileCard() {
             }}
           />
           <Col>
-            <h3>
+            <h2>
               <Badge>{profileName}</Badge>
-            </h3>
+            </h2>
           </Col>
+          <Col>I am a Software Developer</Col>
           <Nav defaultActiveKey="/home" className="justify-content-center">
             <Nav.Link href={gitUrl}>
               <Image src={git} width="34px" fluid />
