@@ -1,22 +1,33 @@
 import React from "react";
 import { Card, Image, Carousel } from "react-bootstrap";
+import ra1 from "../Images/AdminHome.png";
 
 function ProjectCard(props) {
+  const renderExtraImage = () => {
+    console.log("saracheck" + props.projectimgflag);
+    if (props.projectimgflag) {
+      return (
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            height="200px"
+            width="200px"
+            src={props.projectimg4}
+            alt="Fourth slide"
+          />
+        </Carousel.Item>
+      );
+    }
+  };
   return (
-    <Card bg="secondary" style={{ height: "25.4rem", width: "21rem" }}>
-      {/* <Card.Img
-        variant="top"
-        height="160px"
-        width="140px"
-        src={props.projectimg}
-      /> */}
+    <Card bg="secondary" style={{ height: "27.8rem", width: "21rem" }}>
       <Carousel>
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
             height="200px"
             width="200px"
-            src={props.projectimg}
+            src={props.projectimg1}
             alt="First slide"
           />
         </Carousel.Item>
@@ -25,7 +36,7 @@ function ProjectCard(props) {
             className="d-block w-100"
             height="200px"
             width="200px"
-            src={props.projectimg}
+            src={props.projectimg2}
             alt="Third slide"
           />
         </Carousel.Item>
@@ -34,10 +45,11 @@ function ProjectCard(props) {
             className="d-block w-100"
             height="200px"
             width="200px"
-            src={props.projectimg}
+            src={props.projectimg3}
             alt="Third slide"
           />
         </Carousel.Item>
+        {renderExtraImage()}
       </Carousel>
 
       <Card.Body>

@@ -4,37 +4,31 @@ import { Card, Image, Carousel } from "react-bootstrap";
 function ProjectCardRight(props) {
   return (
     <Card bg="secondary" style={{ width: "21rem" }}>
-      {/* <Card.Img
-        variant="top"
-        height="160px"
-        width="140px"
-        src={props.projectimg}
-      /> */}
       <Carousel>
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
-            height="160px"
-            width="160px"
-            src={props.projectimg}
+            height="200px"
+            width="200px"
+            src={props.projectimg1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img
             className="d-block w-100"
-            height="160px"
-            width="160px"
-            src={props.projectimg}
+            height="200px"
+            width="200px"
+            src={props.projectimg2}
             alt="Third slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            height="160px"
-            width="160px"
-            src={props.projectimg}
+            height="200px"
+            width="200px"
+            src={props.projectimg3}
             alt="Third slide"
           />
         </Carousel.Item>
